@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            margin: 0;
+            height: 100vh;
+        }
+       .nav{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        color: black;
+        margin: 0;
+        padding: 0;    
+        word-spacing: 5px;    
+        position: sticky; 
+        justify-content: space-evenly;
+       }
+       .Contact , .about , .project {
+            position: relative;
+            
+        }
+         
+         .about:hover , .Contact:hover , .project:hover{
+            background-color: darkgrey;
+        }
+        p {
+            font-size: 3rem;
+            color: white;
+            position: absolute;
+            top: 80vh;
+            left: 45%;
+
+        }
+
+        span {
+            background-color: #000;
+            opacity: 0.75;
+            padding: 2px;
+
+        }
+        
+    </style>
+</head>
+<body>  
+       <ul class="nav"> 
+           <li class="br"><b>BR Architecture</b></li>
+           <li class="Project"> Project</li>
+           <li class="about"> About</li>
+           <li class="Contact">Contact</li>
+       </ul>
+      <img src="architect.jpg" alt="">
+      <p> <span><b> BR </b>  </span>  Architects </p>
+</body>
+</html>
